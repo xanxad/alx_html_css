@@ -100,16 +100,12 @@ article h2 {
   margin-bottom: 1rem;
 }
 
-.project {
-  margin-bottom: 2rem;
-}
-
-.project h3 {
-  margin-top: 0;
-}
-
-footer p {
-  margin: 0;
+/* Logo styling */
+.logo {
+  font-size: 2em;
+  position: absolute;
+  left: 10px;
+  top: 10px;
 }
 
 /* Basic responsive styling */
