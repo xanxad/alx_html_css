@@ -111,3 +111,16 @@ article h2 {
 footer p {
   margin: 0;
 }
+
+/* Basic responsive styling */
+@media (max-width: 600px) {
+  main {
+    flex-direction: column;
+  }
+
+  article,
+  aside {
+    flex: 1;
+    overflow-y: visible;
+  }
+}
