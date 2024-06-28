@@ -1,0 +1,45 @@
+/* Apply Flexbox to the body and main containers */
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Ensure the body takes the full viewport height */
+}
+
+/* Apply Flexbox to main, which contains the article and aside */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+/* Ensure article takes 2/3 of the width */
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+/* Ensure aside takes 1/3 of the width */
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Optional: Add some basic styling for better visualization */
+header,
+footer {
+  background: #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+article,
+aside {
+  padding: 10px;
+}
+
+/* Ensure the footer is at the bottom */
+footer {
+  margin-top: auto;
+}
