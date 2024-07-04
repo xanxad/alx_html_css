@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Source Sans 3";
+  font-size: 62.5;
+}
+
+body {
+  max-width: 144rem;
+}
+
+nav {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 3rem;
+
+  padding: 0 4.8rem;
+}
+
+.hero {
+  background-image: url(img/Object.png);
+  background-size: cover;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+}
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 12rem;
+  font-weight: 700;
+  margin-top: 5.4rem;
+  color: #fff;
+}
+
+.features {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+  color: #fff;
+}
+.features-list {
+  padding: 0 3.2rem;
+}
+button {
+  margin: 0 auto;
+  background-color: #c271ff;
+  margin-bottom: 4.8rem;
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn-text {
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 1.8rem 3.2rem;
+  border-radius: 100px;
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.2rem;
+  margin-bottom: 2.4rem;
+  color: #fff;
+}
+
+.h2-text {
+  color: #c271ff;
+  display: inline;
+}
+.hero-img {
+  display: flex;
+  justify-content: center;
+  gap: 4.8rem;
+}
+
+.p-center {
+  text-align: center;
+}
+
+.circular-img {
+  border-radius: 50%;
+}
+h3 {
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #fff;
+}
+p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-style: italic;
+  color: #fff;
+}

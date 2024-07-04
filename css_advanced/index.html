@@ -8,55 +8,73 @@
       crossorigin="anonymous"
     ></script>
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <img src="https://fakeimg.pl/250x250?text=Sample+Logo" alt="logo" />
-
-        <ul>
-          <li><a href="#">COURSE</a></li>
-          <li><a href="#">PRICING</a></li>
-          <li><a href="#">LOGIN</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <div>
-          <h1>Get schooled</h1>
-          <span>SMILES</span>
-          <span>GRIN</span>
-          <span>LAUGH</span>
-          <button>REGISTER FOR FREE</button>
-        </div>
-        <div>
-          <h2>Learn from the pros</h2>
+    <section class="hero">
+      <header class="header">
+        <img class="logo" src="img/logo.png" alt="logo" />
+        <nav>
+          <ul class="nav-list">
+            <li><a href="#" class="nav-link">COURSE</a></li>
+            <li><a href="#" class="nav-link">PRICING</a></li>
+            <li><a href="#" class="nav-link">LOGIN</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section>
           <div>
-            <div>
-              <img src="./images/1 (3).png" alt="" />
-              <h3>Phillip Massey</h3>
-              <p>« Smile of the year » 2018 - 2019</p>
+            <h1>Get schooled</h1>
+            <div class="features">
+              <span class="features-list">SMILES</span>
+              <span class="features-list">GRIN</span>
+              <span class="features-list">LAUGH</span>
             </div>
-            <div>
-              <img src="./images/6.png" alt="" />
-              <h3>Nannie Lawrence</h3>
-              <p>Best « little smile » 2017</p>
-            </div>
-            <div>
-              <img src="./images/7.png" alt="" />
-              <h3>Bruce Walters</h3>
-              <p>Best « Friend Smile » live performance 2019</p>
-            </div>
-            <div>
-              <img src="./images/8.png" alt="" />
-              <h3>Henry Hughes</h3>
-              <p>« 24h smiles » winner 2016 - 2019</p>
+            <div class="btn">
+              <button class="btn-text">REGISTER FOR FREE</button>
             </div>
           </div>
-        </div>
-      </section>
+          <div>
+            <h2>
+              <div class="h2-text">Learn</div>
+              from the pros
+            </h2>
+            <div class="hero-img">
+              <div class="p-center">
+                <img src="img/1.png" alt="" class="circular-img" />
+                <h3>Phillip Massey</h3>
+                <p>« Smile of the year »</p>
+                <p>2018 - 2019</p>
+              </div>
+              <div class="p-center">
+                <img src="img/3.png" alt="" class="circular-img" />
+                <h3>Nannie Lawrence</h3>
+                <p>Best « little smile »</p>
+                <p>2017</p>
+              </div>
+              <div class="p-center">
+                <img src="img/2.png" alt="" class="circular-img" />
+                <h3>Bruce Walters</h3>
+                <p>Best « Friend Smile »</p>
+                <p>live performance 2019</p>
+              </div>
+              <div class="p-center">
+                <img src="img/4.png" alt="" class="circular-img" />
+                <h3>Henry Hughes</h3>
+                <p>« 24h smiles » winner</p>
+                <p>2016 - 2019</p>
+              </div>
+            </div>
+          </div>
+        </section>
+    </section>
       <section>
         <div>
           <img src="./images/Bitmap.png" alt="image" />
