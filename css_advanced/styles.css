@@ -6,11 +6,17 @@
 
 html {
   font-family: "Source Sans 3";
-  font-size: 62.5;
+  font-size: 62.5%;
 }
 
-body {
+/*body {
   max-width: 144rem;
+}*/
+
+.container {
+  max-width: 130rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
 }
 
 nav {
@@ -69,6 +75,8 @@ button {
 
 .btn {
   text-align: center;
+  margin-bottom: 12rem;
+  margin-top: 5rem;
 }
 
 .btn-text {
@@ -95,7 +103,9 @@ h2 {
 .hero-img {
   display: flex;
   justify-content: center;
-  gap: 4.8rem;
+  gap: 13rem;
+  padding-bottom: 5rem;
+  margin-top: 8rem;
 }
 
 .p-center {
@@ -135,5 +145,216 @@ p {
   float: left;
 }*/
 .testimonial-quote {
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 3.3rem;
   margin-bottom: 1.8rem;
+  color: #fff;
+}
+
+.popular {
+  margin-top: 4.8rem;
+}
+
+.popular-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+  padding-top: 3.2rem;
+}
+
+.popular-heading {
+  color: #071629;
+  font-weight: 300;
+  font-size: 3.2rem;
+}
+
+.popular-purple {
+  color: #c271ff;
+  font-weight: 700;
+  display: inline;
+}
+
+.popular h3 {
+  color: #071629;
+}
+.popular p {
+  color: #07162980;
+  margin-bottom: 0.8rem;
+}
+
+.popular-phillip {
+  width: 3rem;
+  height: 3rem;
+}
+
+.heading-phillip {
+  color: #c271ff;
+}
+.popular-content {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding-left: 2.8rem;
+}
+.star {
+  display: flex;
+  color: #c271ff;
+  gap: 0.4rem;
+}
+.star div:last-child {
+  color: #d8d8d8;
+}
+.star-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2.8rem;
+}
+.star-time p {
+  color: #c271ff;
+}
+.img-embed {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.play-img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.popular-text {
+  padding-left: 2.8rem;
+  padding-top: 1rem;
+}
+
+.membership {
+  background-color: #071629;
+}
+
+.membership h2 {
+  font-weight: 300;
+  margin-top: 5rem;
+  padding-top: 5rem;
+}
+
+.membership h2 div {
+  color: #c271ff;
+  font-weight: 700;
+  display: inline;
+}
+
+.membership-row {
+  display: flex;
+  justify-content: center;
+}
+
+.membership-card {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10rem;
+  padding-top: 2.2rem;
+  padding-right: 5rem;
+}
+
+.faq h2 {
+  color: #071629;
+  font-weight: 300;
+  font-size: 6rem;
+  line-height: 7.5rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.membership-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.membership-card h3 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+}
+
+.membership-card p {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+}
+
+.faq {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20rem;
+}
+.faq-grid h3 {
+  color: #071629;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin-bottom: 5rem;
+}
+
+.faq-content {
+  margin-bottom: 5rem;
+}
+footer {
+  background-color: #071629;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons i {
+  color: #fff;
+  font-size: 30px;
+}
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 250px;
+  margin: 0 auto;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+.footer-section img {
+  height: 30px;
+  padding-left: 10rem;
+}
+
+footer p {
+  text-align: center;
+  color: #d8d8d8;
+}
+.faq-para {
+  color: #071629;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
 }
