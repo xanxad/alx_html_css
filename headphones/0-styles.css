@@ -130,19 +130,13 @@ button:active {
 
 /*Mobile navigation*/
 
-@media screen and (max-width: 1000px) {
-  .hero-description {
-    color: aqua;
-  }
-}
-
 @media screen and (max-width: 375px) {
   .hero {
     background-image: url(images/headphones_hero_1.jpg);
     background-size: cover;
     background-position: center;
 
-    height: 150vh;
+    height: 100vh;
   }
 
   .logo {
@@ -163,7 +157,6 @@ button:active {
   }
 
   .main-nav {
-    background-color: blue;
     position: absolute;
     top: 0;
     left: 0;
