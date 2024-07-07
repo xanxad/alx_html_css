@@ -1,0 +1,549 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Source Sans 3";
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+}
+.container {
+  max-width: 100rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+  align-items: center;
+}
+
+.main-nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #ff6565;
+}
+
+.icon-mobile-nav-close {
+  color: #fff;
+  width: 2rem;
+  height: 1.4rem;
+  display: none;
+}
+
+.icon-mobile-nav-menu {
+  color: #fff;
+  width: 2rem;
+  height: 1.4rem;
+  display: none;
+}
+.hero {
+  background-image: url(images/headphones_hero_1.jpg);
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 6.4rem;
+}
+
+.hero .main-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.logo {
+  width: 16rem;
+  margin-top: 2.4rem;
+}
+
+.main-box {
+  width: 65rem;
+
+  margin-top: 37rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  color: #fff;
+  text-align: center;
+}
+.subheading {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 2rem;
+}
+
+button {
+  cursor: pointer;
+  background-color: #ff6565;
+  color: #fff;
+  padding: 1rem 1.8rem;
+  border-radius: 100px;
+  margin-top: 3.2rem;
+  margin-bottom: 4.8rem;
+}
+button:hover,
+button:active {
+  opacity: 0.9;
+}
+.hero-description {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  text-align: center;
+}
+
+.what-box {
+  width: 65rem;
+}
+
+.what-we-do h1 {
+  color: #071629;
+  margin-bottom: 5rem;
+}
+
+.what-description {
+  color: #071629;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+
+.icon-box {
+  width: 100rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
+
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.video,
+.music,
+.sound-frequency,
+.hearing {
+  width: 20.7rem;
+}
+.heading-secondary {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  color: #071629;
+  margin-top: 3rem;
+  margin-bottom: 2.4rem;
+}
+
+.icon-box p {
+  font-family: 400;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+}
+
+.results {
+  background-image: url(images/headphones_hero_2.jpg);
+  background-size: cover;
+  margin-bottom: 10rem;
+  height: 100vh;
+}
+
+.results h1 {
+  color: #fff;
+  padding-top: 10rem;
+  margin-bottom: 5rem;
+}
+.results-p {
+  width: 63.7rem;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.pentagone {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-around; /* Distributes space around each box */
+  align-items: center;
+}
+
+.pentagone-img {
+  width: 190px;
+  height: 190px;
+}
+
+.pentagone-box {
+  width: 300px;
+  height: 183px;
+  background-image: url(images/pentagone.png);
+  background-size: cover;
+
+  margin-right: 40px;
+
+  text-align: center;
+}
+
+.pentagone-box h2 {
+  font-weight: 700;
+  font-size: 4.6rem;
+  line-height: 2.6rem;
+  color: #fff;
+  text-align: center;
+  padding-top: 70px;
+  margin-bottom: 2rem;
+}
+
+.pentagone-box p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+}
+
+.contact {
+  margin-bottom: 10rem;
+}
+.contact-box {
+  width: 33.5rem;
+  margin: 0 auto;
+}
+
+.contact h1 {
+  color: #071629;
+  font-size: 3.2rem;
+  text-align: center;
+  line-height: 3.8rem;
+  margin-bottom: 4.8rem;
+}
+
+#name {
+  display: block;
+  border-top: hidden;
+  border-right: hidden;
+  border-left: hidden;
+  border-bottom: solid #071629;
+  margin-bottom: 2.4rem;
+  font-size: 1.4rem;
+  color: #071629;
+  line-height: 1.4rem;
+}
+#email {
+  display: block;
+  border-top: hidden;
+  border-right: hidden;
+  border-left: hidden;
+  border-bottom: solid #071629;
+  margin-bottom: 2.4rem;
+  font-size: 1.4rem;
+  color: #071629;
+  line-height: 1.4rem;
+}
+
+#message {
+  display: block;
+  border-top: hidden;
+  border-right: hidden;
+  border-left: hidden;
+  border-bottom: solid #071629;
+  font-size: 1.4rem;
+  color: #071629;
+  line-height: 1.4rem;
+}
+
+.btn-box {
+  width: 16.2rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+}
+
+footer {
+  background-color: #071629;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons i {
+  color: red;
+  font-size: 30px;
+}
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 250px;
+  margin: 0 auto;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+.footer-section img {
+  height: 30px;
+  padding-left: 10rem;
+}
+
+footer p {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+@keyframes scale-up {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.what-we-do .icon-box div,
+.our-results .icon-box div {
+  display: inline-block;
+  animation: fade-in 1s ease-in-out infinite alternate,
+    scale-up 2s ease-in-out infinite, rotate 5s linear infinite;
+}
+
+/* Add hover effects */
+.what-we-do .icon-box div:hover,
+.our-results .icon-box div:hover {
+  animation: bounce 2s ease infinite;
+}
+
+/* CSS for scaling animation */
+.pentagone-box {
+  transition: transform 0.3s ease;
+}
+
+.pentagone-box:hover {
+  transform: scale(1.1);
+}
+
+/* CSS for opacity animation */
+.results-p {
+  transition: opacity 0.3s ease;
+}
+
+.results-p:hover {
+  opacity: 0.8;
+}
+
+/* CSS for bouncing animation */
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.result-item {
+  transition: transform 0.3s ease;
+}
+
+.result-item:hover {
+  animation: bounce 0.5s infinite;
+}
+
+/*Mobile navigation*/
+
+@media screen and (max-width: 375px) {
+  .hero {
+    background-image: url(images/headphones_hero_1.jpg);
+    background-size: cover;
+    background-position: center;
+
+    height: 150vh;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+  .main-box {
+    width: 357px;
+  }
+  .btn--mobile-nav {
+    cursor: pointer;
+  }
+
+  .icon-mobile-nav-menu {
+    display: block;
+  }
+
+  .icon-mobile-nav-close {
+  }
+
+  .main-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    transform: translateX(100%);
+    padding-left: 10px;
+
+    margin-top: 50px;
+
+    transition: all 0.5s;
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav-close {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav-menu {
+    display: none;
+  }
+
+  .what-box {
+    width: 32.5rem;
+  }
+
+  .icon-box {
+    width: 20.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video,
+  .music,
+  .sound-frequency,
+  .hearing {
+    margin: 0 auto;
+    padding: 0 3.2rem;
+  }
+
+  .heading-secondary {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .icon-box p {
+  }
+
+  svg {
+    margin: 0 auto;
+  }
+
+  .results {
+    background-image: url(images/headphones_hero_2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 125vh;
+  }
+
+  .results-p {
+    width: 30.5rem;
+  }
+
+  .results h1 {
+    line-height: 3.8rem;
+    text-align: center;
+  }
+  .pentagone {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .pentagone-box {
+    width: 190px;
+    height: 180px;
+  }
+
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-section img {
+    padding-right: 10rem;
+  }
+
+  footer p {
+    padding-bottom: 5rem;
+  }
+}
